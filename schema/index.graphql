@@ -1,0 +1,4 @@
+#import User from 'User.graphql'
+#import Task from 'Task.graphql'
+#import Query from 'Query.graphql'
+#import Mutation from 'Mutation.graphql'

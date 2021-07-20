@@ -1,0 +1,20 @@
+type Task {
+  id: Int
+  title: String!
+  description: String
+  is_conclued: Boolean!
+}
+
+input TaskInput {
+  title: String!
+  description: String
+}
+
+input changeConclusion {
+  is_conclued: Boolean!
+}
+
+input TaskFilter {
+  id: Int
+  is_conclued: Boolean
+}

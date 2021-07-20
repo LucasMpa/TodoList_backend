@@ -1,0 +1,9 @@
+type Query {
+  #Queries de Usuário
+  user(filter: UserFilter!): Users
+  users: [Users]
+
+  #Queries de Tasks
+  tasks: [Task]
+  tasksByConclusion(filter: TaskFilter!): [Task]
+}

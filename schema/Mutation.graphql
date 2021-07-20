@@ -1,0 +1,11 @@
+type Mutation {
+  # Mutations de User
+  newUser(data: UserInput!): Users!
+  editUser(filter: UserFilter!, data: UserEdit!): Users!
+
+  # Mutations de Task
+  newTask(data: TaskInput!): Task!
+  removeTask(filter: TaskFilter!): Task!
+  editTask(filter: TaskFilter!, data: TaskInput!): Task!
+  conclusionToggle(filter: TaskFilter!, data: changeConclusion!): Task!
+}

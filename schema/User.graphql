@@ -1,0 +1,22 @@
+type Users {
+  id: Int
+  name: String!
+  email: String!
+}
+
+input UserInput {
+  name: String!
+  email: String!
+  password: String!
+}
+
+input UserEdit {
+  name: String
+  email: String
+  password: String
+}
+
+input UserFilter {
+  id: Int
+  email: String
+}
