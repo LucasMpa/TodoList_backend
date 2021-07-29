@@ -2,6 +2,7 @@ type Task {
   id: Int
   title: String!
   description: String
+  created_at: String
   is_conclued: Boolean!
 }
 

@@ -1,19 +1,25 @@
-require('dotenv').config()
+require("dotenv").config();
 
 module.exports = {
-  client: 'mysql',
+  client: "postgres",
   connection: {
-    host: process.env.APP_DB_HOST,
-    port: process.env.APP_DB_PORT,
-    database: process.env.APP_DB_NAME,
-    user: process.env.APP_DB_USER,
-    password: process.env.APP_DB_PASSWORD,
+    host: "ec2-18-213-219-169.compute-1.amazonaws.com",
+    port: 5432,
+    database: "d6rc0c9k0rudok",
+    user: "lglunjbxtrjivi",
+    password:
+      "a1025e8ed48db70fd880b488e61fc2f20c958865e723ef663f65898d63bdbb4d",
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
   },
+
   pool: {
     min: 2,
-    max: 10
+    max: 10,
   },
   migrations: {
-    tableName: 'knex_migrations'
-  }
+    tableName: "knex_migrations",
+  },
 };
