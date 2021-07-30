@@ -19,7 +19,9 @@
 
 
 # Sobre
-Em busca de aprimorar meus conhecimentos em NodeJS e Back-end, me adentrei em um curso da Udemy sobre GraphQL e com intuito de colocar em prática meus conhecimentos aquiridos, decidi por fazer este projeto, sendo assim, minha primeira aplicação em que construo do início ao fim, utilizando NodeJS e GraphQL no back-end e ReactJs no front.
+<p align="justify">
+    Em busca de aprimorar meus conhecimentos em NodeJS e Back-end, me adentrei em um curso da Udemy sobre GraphQL e com intuito de colocar em prática meus conhecimentos aquiridos, decidi por fazer este projeto, sendo assim, minha primeira aplicação em que construo do início ao fim, utilizando NodeJS e GraphQL no back-end e ReactJs no front.
+</p>
 
 ## Como Iniciar Na Sua Máquina
 
