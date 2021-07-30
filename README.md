@@ -29,7 +29,7 @@ Antes de tudo, você precisa instalar o MySQL em sua máquina, leia a documenta�
 <a href="https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=CjwKCAjwxo6IBhBKEiwAXSYBs38dOMMIW8u_A1iOAFfi3AclsQcKBR-ZYEQYRRn_7mOjLdZ2S1QMAhoCb9oQAvD_BwE">Windows</a>
 
 
-Para instalar as dependências:
+### Para instalar as dependências:
 
 ```
  $ npm i
@@ -39,7 +39,7 @@ Para instalar as dependências:
  $ yarn
 ```
 
-Para rodar as migrations:
+### Para rodar as migrations:
 
 ```
  $ npx knex migrate:latest
@@ -49,7 +49,7 @@ Para rodar as migrations:
  $ yarn knex migrate:latest
 ```
 
-Para iniciar o projeto:
+### Para iniciar o projeto:
 
 ```
  $ npm start
