@@ -29,6 +29,15 @@ Antes de tudo, você precisa instalar o MySQL em sua máquina, leia a documenta�
 <a href="https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=CjwKCAjwxo6IBhBKEiwAXSYBs38dOMMIW8u_A1iOAFfi3AclsQcKBR-ZYEQYRRn_7mOjLdZ2S1QMAhoCb9oQAvD_BwE">Windows</a>
 
 
+
+### Para configurar a conexão com o banco:
+
+Após instalar e configurar seu usuário MySQL crie um banco com um nome que deseje.
+<br />
+Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. 
+Neste arquivo você precisará configurar o Knex para que consiga acessar o banco. Então, substitua as informações já escritas pelas informações de sua máquina.
+
+
 ### Para instalar as dependências:
 
 ```
