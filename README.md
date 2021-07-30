@@ -34,9 +34,7 @@ Antes de tudo, você precisa instalar o MySQL em sua máquina, leia a documenta�
 
 ### Para configurar a conexão com o banco:
 
-<p align="justify">
     Após instalar e configurar seu usuário MySQL crie um banco com um nome que deseje. Faça uma cópia do arquivo `.env.example` e renomeie para `.env`. Neste arquivo você precisará configurar o Knex para que consiga acessar o banco. Então, substitua as informações já escritas pelas informações de sua máquina.
-</p>
 
 
 ### Para instalar as dependências:
