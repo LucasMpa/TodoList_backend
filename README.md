@@ -25,10 +25,9 @@ Em busca de aprimorar meus conhecimentos em NodeJS e Back-end, me adentrei em um
 
 Antes de tudo, você precisa instalar o MySQL em sua máquina, leia a documentação para saber como prosseguir.
 
-```
 <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-pt">Ubuntu</a>
 <a href="https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=CjwKCAjwxo6IBhBKEiwAXSYBs38dOMMIW8u_A1iOAFfi3AclsQcKBR-ZYEQYRRn_7mOjLdZ2S1QMAhoCb9oQAvD_BwE">Windows</a>
-```
+
 
 Para instalar as dependências:
 
