@@ -71,4 +71,7 @@ Obs: Por padrão, este projeto inicia na porta 4000, fique atento caso tenha alg
 lembre-se de alterar também o arquivo `client-graphql.js` no projeto do front-end da aplicação.
 
 
+Clique <a href="https://github.com/LucasMpa/TodoList">aqui</a> para acessar o front-end da aplicação.
+
+
 Desenvolvido por  <a href="https://www.linkedin.com/in/lucasmpa/">Lucas Matheus</a> :)
